@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+<div class="t"> <h1>CAMITOP</h1></div>
+        
+        <div class="n"><nav>
+            <ul type="none">
+                <a href="Proyectofinal.html"><li>Camisetas Retro</li></a>
+                <a href="acutales.html"><li>Camisetas Actuales</li></a>
+                <a href="salecciones.html"><li>Carrito</li></a>
+            <a href="ayuda.html"><li>Ayuda</li></a>
+            </ul>
+        </nav></div>   
+        
+    </header>
+    <article>
+        <main>
+            <section class="carrito">
+                <h2>¿Qué camiseta quieres comprar?</h2>
+                <form id="adoptaForm">
+                    <label for="nombre">Tu Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+     
+                    <label for="email">Tu Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Escribe tu correo" required>
+     
+                    <label for="cami">Selecciona el tipo de camiseta que deseas comprar:</label>
+                    <select id="cami" name="cami" required>
+                        <optgroup label="Actuales">
+                            <option value="1">Borussia de Dornmunt</option>
+                            <option value="2">2ª Inter de Miami</option>
+                            <option value="3">Leizpig</option>
+                            <option value="4">Manchester City</option>
+                            <option value="5">Manchester United</option>
+                            <option value="6">Real Madrid</option>
+                            <option value="7">Valladolid</option>
+                            <option value="8">Tottenham</option>
+                            <option value="9">PSG</option>
+                            <option value="10">FC Barcelona</option>
+                        </optgroup>
+                        <optgroup label="Retros">
+                            <option value="1">Manchester United 2008</option>
+                            <option value="2">AC Milan 2006</option>
+                            <option value="3">Inter de Milan 2010</option>
+                            <option value="4">Juventus 1997</option>
+                            <option value="5">3ª Real Madrid 2012</option>
+                            <option value="6">3ª Real Madrid 2013</option>
+                            <option value="7">Santos 2012</option>
+                            <option value="8">3ª Atletic Club de Bialbao 1997</option>
+                            <option value="9">Boca Juniros 1996</option>
+                            <option value="10">Liverpool 1995</option>
+                        </optgroup>
+     
+                    <label for="sugerencia">sugerencia que quiera poner</label>
+                    <textarea id="sugerencia" name="sugerencia" rows="4" placeholder="Escribe tu sugerencia aquí..." required></textarea>
+     
+                    <button type="submit" id="enviarEncuesta">Agergar</button>
+                    <button id="confettiButton">Pagar </button>
+                </form>
+            </section>
+        </main>
+
+    </article>
+    
+    <footer>
+
+
+    </footer>
+</body>
+</html>
