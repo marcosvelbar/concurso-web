@@ -1,0 +1,155 @@
+html{
+    background-color: white;
+}
+
+header{
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    height:300px;
+    margin-bottom: 20px;
+    background-image: url(banner.jpg);
+}
+header div.t{
+    
+    height: fit-content;
+    width: fit-content;
+    font-size:70px;
+    align-self: flex-start;
+    padding: 0px;
+}
+header div.t h1{
+   margin: 0px;
+   color: white;
+}
+header div.n{
+    height: fit-content;
+    width: fit-content;
+    align-self: flex-end;
+
+}
+nav ul li{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    text-align: left;
+}
+nav ul li:hover{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    width: 150px;
+}
+
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+article div{
+    width: 350px;
+    height: 500px;
+    text-align: center;
+}
+article div.texto{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+article div:hover{
+    border-radius: 10px;
+    background-color: rgb(211, 211, 211);
+    transition: all 0.3s ease;
+    height: 520px;
+}
+
+article.ayuda {
+    justify-content: space-around;
+
+}
+article.ayuda div{
+    height: fit-content;
+    width: fit-content;
+
+}
+article.ayuda div:hover{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+article.ayuda div img:hover{
+    width:500px ;
+    height: 500px ;
+    transition: all 0.3s ease;
+}
+article div p.titulo{
+   font-size: larger;
+   font-family: "Quantico", serif;
+   font-weight: 700;
+   font-style: normal;
+}
+a{
+    all: unset;
+}
+section.carrito{
+    justify-content: center;
+}
+
+
+
+  
+.carrito label {
+    font-weight: bold;
+    color: #333;
+}
+ 
+.carrito input,.carrito select,.carrito textarea,.carrito button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+ 
+.carrito button {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
+ 
+.carrito button:hover {
+    background-color: #303030;
+    height: 50px;
+    transition: all 0.3s ease
+    
+}
+input,select,textarea{
+    width: 1380px;
+    
+}
+div.reseña{
+    width: fit-content;
+    height: fit-content;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+td:hover{
+    color:rgb(74, 74, 252) ;
+}
